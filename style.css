@@ -1,0 +1,268 @@
+header {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    text-align: left;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 15px 20px;
+    position: relative;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.menu-toggle {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.nav-links {
+    list-style: none;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 8px;
+    display: none;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.nav-links li {
+    margin: 10px 0;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.url-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.url-section input[type="text"] {
+    padding: 10px;
+    width: 300px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 1rem;
+}
+
+#checkBtn {
+    display: inline-block;
+}
+
+.url-section button {
+    padding: 15px 140px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.url-section button:hover {
+    background-color: white;
+}
+
+.app-section {
+    padding: 36px 18px;
+    border-top: 1px solid #eee;
+    background: #ffffff;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+h2 {
+    margin-top: 0;
+    font-size: 1.6rem;
+}
+
+.lead {
+    color: #444;
+    margin-bottom: 12px;
+}
+
+label {
+    display: block;
+    margin: 8px 0;
+    font-weight: 600;
+}
+
+textarea#email-input {
+    width: 100%;
+    padding: 12px;
+    font-size: 0.95rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    resize: vertical;
+    box-sizing: border-box;
+}
+
+.controls {
+    margin-top: 12px;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.btn {
+    padding: 8px 14px;
+    border-radius: 6px;
+    border: 1px solid #cfcfcf;
+    background: #f4f4f4;
+    cursor: pointer;
+}
+
+.btn-light {
+    background: #fff;
+}
+
+.result-box {
+    margin-top: 12px;
+    padding: 12px;
+    border-radius: 6px;
+    background: #fafafa;
+    border: 1px dashed #ddd;
+    min-height: 44px;
+    color: #222;
+}
+
+.result-box.small {
+    min-height: 28px;
+    font-size: 0.95rem;
+}
+
+.quiz-question {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.quiz-options {
+    display: grid;
+    gap: 8px;
+    margin-top: 8px;
+}
+
+.option-btn {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    background: #fff;
+    text-align: left;
+    cursor: pointer;
+}
+
+.option-btn.correct {
+    box-shadow: 0 0 0 3px rgba(46,204,113,0.12);
+}
+
+.option-btn.wrong {
+    box-shadow: 0 0 0 3px rgba(231,76,60,0.08);
+    opacity: 0.95;
+}
+
+section.threat {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+section.threat img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 5px;
+}
+
+.fake-url {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.phishing-info {
+    padding: 40px 20px;
+    background-color: #f1f5f9;
+    text-align: center;
+}
+
+.phishing-info h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #1e293b;
+}
+
+.info-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.info-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    padding: 20px;
+    max-width: 400px;
+    text-align: left;
+}
+
+.info-card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.info-card h3 {
+    font-size: 1.3rem;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.info-card p {
+    font-size: 1rem;
+    color: black;
+    line-height: 1.6;
+}
+
+footer {
+    margin-top: auto;
+    text-align: center;
+    padding: 20px;
+    background-color: #808080;
+    font-size: larger;
+}
+
+#result {
+    margin-top: 10px;
+    font-size: 16px;
+    min-height: 24px;
+    transition: color 0.3s ease;
+}
+
+.nav-links.active {
+    display: block;
+}
