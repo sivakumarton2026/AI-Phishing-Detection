@@ -39,4 +39,4 @@ The project aims to create awareness about phishing attacks and help users recog
 
 ## Author
 
-Sivakumarton
+Tonysha
