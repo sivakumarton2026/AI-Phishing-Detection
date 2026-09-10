@@ -40,3 +40,8 @@ The project aims to create awareness about phishing attacks and help users recog
 ## Author
 
 Tonysha
+
+## 🔗 Project Link
+
+[View AI Phishing Detection Project on GitHub](https://github.com/sivakumarton2026/AI-Phishing-Detection.git)
+
