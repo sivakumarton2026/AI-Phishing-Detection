@@ -43,5 +43,5 @@ Tonysha
 
 ## 🔗 Project Link
 
-[View AI Phishing Detection Project on GitHub](https://github.com/sivakumarton2026/AI-Phishing-Detection.git)
+[View AI Phishing Detection Project on GitHub] (https://sivakumarton2026.github.io/AI-Phishing-Detection/)
 
